@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true, // Use external image URLs (free tier optimization)
+    unoptimized: true,
   },
   reactStrictMode: true,
   swcMinify: true,
