@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "framework": "nextjs",
+  "git": {
+    "autoJobCancellation": true,
+    "deploymentEnabled": true
+  },
+  "github": {
+    "enabled": true,
+    "silent": false
+  },
+  "cleanUrls": true,
+  "trailingSlash": false
+}
